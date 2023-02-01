@@ -7,14 +7,14 @@
 </head>
 
 <body>
-    <dl>
+    <dl> <!--Cabeçalho da página-->
         <dt>
             <h1>Deck Kaalia</h1>
         </dt>
         <dd>Lista do deck da Kaalia.</dd>
     </dl>
 
-    <table border>
+    <table border> <!-- Tabela de cartas -->
         <th>Nome</th>
         <th>Tipo</th>
         <th>Custo de mana</th>
@@ -49,7 +49,8 @@
             <td>1B</td>
         </tr>
     </table>
-    <fieldset>
+
+    <fieldset> <!-- Box de Procura de cartas-->
         <legend><h2>Busca de carta</h2></legend>
         <form>
             <label for="nome_da_carta">Nome:</labek>
@@ -71,6 +72,7 @@
     <br>
     <b>Cor da carta:</b>
     <select name="Tipo de carta">
+        <option></option>
         <option value="Black">Black</option>
         <option value="Blue">Blue</option>
         <option value="White">White</option>
@@ -81,5 +83,6 @@
     <br>
     <br>
     <button>Buscar</button>
+    <button type="reset">Reset</button>
 </fieldset>
 </body>
