@@ -2,50 +2,84 @@
 
 <head>
     <title>
-       Kaalia of the Vast
+        Kaalia of the Vast
     </title>
 </head>
 
 <body>
     <dl>
-        <dt><h1>Deck Kaalia</h1></dt>
+        <dt>
+            <h1>Deck Kaalia</h1>
+        </dt>
         <dd>Lista do deck da Kaalia.</dd>
     </dl>
 
-<table border>
-    <th>Nome</th>
-    <th>Tipo</th>
-    <th>Custo de mana</th>
-    <tr> 
-        <td>Kaalia of the Vast</td>
-        <td>Legendary Creature</td>
-        <td>1BWR</td>
-    </tr>
-    <tr>
-        <td>Avacyn, Angel of Hope</td>
-        <td>Legendary creature</td>
-        <td>5WWW</td>
-    </tr>
-    <tr>
-        <td>Swords to plowshare</td>
-        <td>Instant</td>
-        <td>W</td>
-    </tr>
-    <tr>
-        <td>Smothering Tithe</td>
-        <td>Enchantment</td>
-        <td>3W</td>
-    </tr>
-    <tr>
-        <td>Phyrexian Arena</td>
-        <td>Enchantment</td>
-        <td>1BB</td>
-    </tr>
-    <tr>
-        <td>Demonic Tutor</td>
-        <td>Sorcery</td>
-        <td>1B</td>
-    </tr>
-</table>
-
+    <table border>
+        <th>Nome</th>
+        <th>Tipo</th>
+        <th>Custo de mana</th>
+        <tr>
+            <td>Kaalia of the Vast</td>
+            <td>Legendary Creature</td>
+            <td>1BWR</td>
+        </tr>
+        <tr>
+            <td>Avacyn, Angel of Hope</td>
+            <td>Legendary creature</td>
+            <td>5WWW</td>
+        </tr>
+        <tr>
+            <td>Swords to plowshare</td>
+            <td>Instant</td>
+            <td>W</td>
+        </tr>
+        <tr>
+            <td>Smothering Tithe</td>
+            <td>Enchantment</td>
+            <td>3W</td>
+        </tr>
+        <tr>
+            <td>Phyrexian Arena</td>
+            <td>Enchantment</td>
+            <td>1BB</td>
+        </tr>
+        <tr>
+            <td>Demonic Tutor</td>
+            <td>Sorcery</td>
+            <td>1B</td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Carta</legend>
+        <form>
+            <label for="nome_da_carta">Nome:</labek>
+                <input name="nome_da_carta" type="text">
+        </form>
+    <br>
+    <br>
+    <b>Tipo de carta:</b>
+    <form>
+        <span>Creature</span>
+        <input type="radio" name="type" value="creature" />
+        <span>Instant</span>
+        <input type="radio" name="type" value="Instant" />
+        <span>Sorcery</span>
+        <input type="radio" name="type" value="Sorcery" />
+        <span>Enchantment</span>
+        <input type="radio" name="type" value="Enchantment" />
+    </form>
+    <br>
+    <b>Cor da carta:</b>
+    <select name="Tipo de carta">
+        <option value="Black">Black</option>
+        <option value="Blue">Blue</option>
+        <option value="White">White</option>
+        <option value="Red">Red</option>
+        <option value="Green">Green</option>
+        <option value="Multicolored">Multicolored</option>
+    </select>
+    <br>
+    <br>
+    <button>Buscar</button>
+</fieldset>
 </body>
