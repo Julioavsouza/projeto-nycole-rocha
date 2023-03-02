@@ -1,0 +1,106 @@
+*{
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.cabecalho{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0px;
+    background-color: #ffffff;
+}
+
+.iconeCabecalho{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.link{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    color: #615B9C;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px 50px;
+    border-radius: 5px;
+   
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.blocoSessao{
+    padding: 200px 0px;
+    width: 100%;
+    color: #423E6B;
+}
+
+.sessaoCompleta{
+    width: 50%;
+}
+
+.titulo{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+#sobre{
+    justify-content: space-between;
+    display:flex;
+}
+
+.imagemSessaoSobre{
+    display: flex;
+    height: 300px;
+}
+
+.tituloSessao{
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.textoSessao{
+    font-size: 1.5em;
+    
+}
+
+#conteudo{
+    background-color: #F0F7F5;
+    padding: 30px 100px;
+    text-align: justify;
+}
+
+.rodape{
+    padding: 0px 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0px;
+    background-color: #615B9C;
+    color:#F0F7F5;
+}
+
+.linkClicavel{
+    padding: 0px 50px;
+    color: #F0F7F5;
+}
