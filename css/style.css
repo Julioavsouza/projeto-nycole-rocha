@@ -1,11 +1,10 @@
 *{
     font-family: 'Comfortaa', cursive;
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px; 
 }
-
 
 .cabecalho{
     height: 60px;
@@ -22,7 +21,6 @@
     align-items: center;
     width: 40px;
     height: 40px;
-   
 }
 
 .link{
@@ -33,10 +31,9 @@
     left: 50px;
     color: #615B9C;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     padding: 0px 50px;
-    border-radius: 5px;
-   
+    border-radius: 5px;   
 }
 
 .link:hover{
@@ -67,7 +64,7 @@
 
 .imagemSessaoSobre{
     display: flex;
-    height: 300px;
+    height: 400px;
 }
 
 .tituloSessao{
@@ -78,8 +75,7 @@
 }
 
 .textoSessao{
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
 }
 
 #conteudo{
@@ -89,18 +85,35 @@
 }
 
 .rodape{
-    padding: 0px 50px;
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     position:sticky;
     top:0px;
     background-color: #615B9C;
     color:#F0F7F5;
 }
 
+.tituloRodape{
+    display: flex;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+
+.conteudoRodape{
+display: flex;
+padding: 20px 0px;
+}
+
 .linkClicavel{
     padding: 0px 50px;
     color: #F0F7F5;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: #423E6B;
+    transform: translateY(100px);
 }
