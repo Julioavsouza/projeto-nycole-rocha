@@ -32,12 +32,13 @@
     color: #615B9C;
     font-weight: 700;
     font-size: 24px;
-    padding: 0px 50px;
-    border-radius: 5px;   
+    padding: 0px 50px;   
 }
 
 .link:hover{
-    text-decoration: underline;
+    border-bottom: solid #423E6B;
+    transform: 1s;
+    
 }
 
 .blocoSessao{
