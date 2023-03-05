@@ -36,9 +36,7 @@
 }
 
 .link:hover{
-    border-bottom: solid #423E6B;
-    transform: 1s;
-    
+    border-bottom: solid #423E6B;  
 }
 
 .blocoSessao{
@@ -115,6 +113,28 @@ padding: 20px 0px;
 .quadrado{
     width: 100px;
     height: 100px;
+    border-radius: 10px;
     background-color: #423E6B;
-    transform: translateY(100px);
+    
+    
+}
+
+.quadrado:hover{
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    
+}
+
+@keyframes animacao {
+from {}
+to { 
+    width: 500px; 
+    }
+}
+
+@keyframes aparecer {
+    from {opacity: 0;}
+    to {opacity: 1;}    
 }
