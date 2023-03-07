@@ -7,7 +7,7 @@
 }
 
 .cabecalho{
-    height: 60px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
     left: 50px;
     color: #615B9C;
     font-weight: 700;
-    font-size: 24px;
+    font-size:28px;
     padding: 0px 50px;   
 }
 
@@ -41,8 +41,8 @@
 
 #conteudo{
     background-color: #F0F7F5;
-    padding: 30px 100px;
-    text-align: justify;
+    padding: 10px 100px;
+    text-align: left;
 }
 
 .blocoSessao{
@@ -70,14 +70,14 @@
 }
 
 .tituloSessao{
-    font-size: 1.8em;
+    font-size: 48px;
     font-weight: 700;
     text-align: left;
     padding-bottom: 30px;
 }
 
 .textoSessao{
-    font-size: 1.5em; 
+    font-size: 34px; 
 }
 
 
