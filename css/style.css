@@ -39,16 +39,19 @@
     border-bottom: solid #423E6B;  
 }
 
+#conteudo{
+    background-color: #F0F7F5;
+    padding: 30px 100px;
+    text-align: justify;
+}
+
 .blocoSessao{
+    display: flex;
     padding: 200px 0px;
     width: 100%;
     color: #423E6B;
+    flex-direction: column;
 }
-
-.sessaoCompleta{
-    width: 50%;
-}
-
 .titulo{
     font-size: 2em;
     font-weight: bolder;
@@ -62,8 +65,8 @@
 }
 
 .imagemSessaoSobre{
-    display: flex;
-    height: 400px;
+    padding: 50px 0px;
+    height: 100%;
 }
 
 .tituloSessao{
@@ -77,11 +80,7 @@
     font-size: 1.5em; 
 }
 
-#conteudo{
-    background-color: #F0F7F5;
-    padding: 30px 100px;
-    text-align: justify;
-}
+
 
 .rodape{
     display: flex;
@@ -137,4 +136,16 @@ to {
 @keyframes aparecer {
     from {opacity: 0;}
     to {opacity: 1;}    
+}
+
+@media (min-width: 992px) {
+    .blocoSessao{
+        flex-direction: row;
+    }
+
+    .imagemSessaoSobre{
+        width: 50%;
+        padding-left: 20px;
+    }
+    
 }
