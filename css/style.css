@@ -47,11 +47,12 @@
 
 .blocoSessao{
     display: flex;
-    padding: 200px 0px;
+    padding: 110px 0px;
     width: 100%;
     color: #423E6B;
     flex-direction: column;
 }
+
 .titulo{
     font-size: 2em;
     font-weight: bolder;
@@ -64,7 +65,17 @@
     display:flex;
 }
 
+#servicos{
+    justify-content: space-between;
+    display:flex;
+}
+
 .imagemSessaoSobre{
+    padding: 50px 0px;
+    height: 100%;
+}
+
+.imagemSessaoServicos{
     padding: 50px 0px;
     height: 100%;
 }
@@ -78,9 +89,8 @@
 
 .textoSessao{
     font-size: 34px; 
+    text-align: justify;
 }
-
-
 
 .rodape{
     display: flex;
@@ -109,41 +119,23 @@ padding: 20px 0px;
     color: #F0F7F5;
 }
 
-.quadrado{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: #423E6B;
-    
-    
-}
-
-.quadrado:hover{
-    animation-name: animacao;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-delay: 0s;
-    
-}
-
-@keyframes animacao {
-from {}
-to { 
-    width: 500px; 
-    }
-}
-
-@keyframes aparecer {
-    from {opacity: 0;}
-    to {opacity: 1;}    
-}
 
 @media (min-width: 992px) {
     .blocoSessao{
         flex-direction: row;
     }
 
+    .textoSessao{
+    font-size: 1.4em;
+    text-align: left;
+    }
+
     .imagemSessaoSobre{
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .imagemSessaoServicos{
         width: 50%;
         padding-left: 20px;
     }
